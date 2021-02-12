@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Week Assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <div class="container h-screen d-flex align-items-center">
+        <div class="row">
+            <div class="col-lg-7 col-md-6 col-12 px-5 d-flex align-items-center">
+                <img class="w-100 h-auto" src="/assets/undraw_Add_user_re_5oib.svg" width="869.994" height="1200">
+            </div>
+            <div class="logincard col-lg-5 col-md-6 col-12 p-4">
+                <h1 class="text-muted display-5">Create An<br>Account</h1>
+                <p class="text-muted">Login with credentials to continue</p>
+
+                <form class="mt-5" action="/login" method="post">
+                    <input type="email" class="inputs mt-3 mb-2 py-4 px-5 form-control form-control-lg rounded"
+                        name="email" placeholder="Email">
+                    <input type="password" class="inputs mt-3 mb-2 py-4 px-5 form-control form-control-lg rounded"
+                        name="password" placeholder="Password">
+                    <input type="confirm_password" class="inputs mt-3 mb-2 py-4 px-5 form-control form-control-lg rounded" name="password"
+                        placeholder="Confirm Password">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="text-muted px-3 form-check-label" for="flexCheckDefault">
+                            You agree to our terms of service and privacy policy
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-outline-secondary float-right">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
